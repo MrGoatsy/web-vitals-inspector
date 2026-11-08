@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ui.css">
+</head>
+
+<body>
+    <header>
+        <div class="site" id="site"></div>
+        <div class="actions">
+            <button id="reset" type="button" hidden>Reset</button>
+            <button id="toggle" type="button" hidden>Enable on this site</button>
+        </div>
+    </header>
+    <div class="meta" id="meta"></div>
+    <div class="cards" id="cards"></div>
+    <section id="shifts-section" hidden>
+        <h2>Layout shifts <span class="meta" id="shifts-meta"></span></h2>
+        <div id="shifts"></div>
+    </section>
+    <section id="interactions-section" hidden>
+        <h2>Slowest interactions</h2>
+        <div id="interactions"></div>
+    </section>
+    <footer class="copyright">© 2026 <a href="https://heekdevelopment.com/" target="_blank" rel="noopener">HeekDevelopment</a>. All rights reserved.</footer>
+    <script src="ui.js"></script>
+</body>
+
+</html>
