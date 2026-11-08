@@ -40,7 +40,7 @@ The add-on stays loaded until Firefox restarts.
 
 ## Privacy
 
-Nothing leaves the browser. There are no network requests, no analytics and no remote code. The list of enabled sites is kept in the add-on's local storage.
+The add-on makes no network requests. Measurements stay in the open tab and the enabled sites are saved in Firefox's local add-on storage.
 
 ## Licence
 
